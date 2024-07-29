@@ -1,17 +1,8 @@
-# jupyterlab_practice
-
-## Overview of contents
-This jupyterlab practice project is organized in the following structure:
-<ul>
-    <li>jupyterlab_practice/
-        <ul>
-            <li>images/</li>
-        </ul>
-    </li>
-</ul>
-
-## Dependencies
-The following packages are needed to run the Jupyter Notebooks: 
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
   - python=3.12
   - conda==24.5.0
   - setuptools
@@ -29,3 +20,4 @@ The following packages are needed to run the Jupyter Notebooks:
   - jupyterlab-spellchecker
   - pandas
   - nb_conda_kernels
+prefix: C:\Users\theno\miniconda3
